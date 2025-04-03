@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+/* Estilos por empresa */
+.pil {
+    background-color: #0078C1; /* Azul de PIL */
+    color: white;
+}
+
+.bmsc {
+    background-color: #0ea868; /* Rojo de BMSC */
+    color: white;
+}
+
+.soboce {
+    background-color: #d61a13; /* Naranja de SOBOCE */
+    color: black;
+}
+
+.cre {
+    background-color: #6e2c2c; /* Verde de CRE */
+    color: white;
+}
+
+.ceibo {
+    background-color: #461b18; /* Azul oscuro de Fancesa */
+    color: white;
+}
+
+tr:nth-child(even) {
+    opacity: 0.9;
+}
+
+/* Estilos para los enlaces */
+td a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
